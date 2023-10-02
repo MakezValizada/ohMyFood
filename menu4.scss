@@ -1,0 +1,1177 @@
+$purple: #9356DC;
+$pink: #FF79DA;
+$green: #99E2D0;
+$title-fonts: 'Shrikhand', cursive;
+$text-fonts: 'Roboto', sans-serif;
+$light-gray: rgb(240, 240, 240);
+$dark-gray:  rgb(46, 45, 45);
+$shadow:  0px 0px 15px rgba(188, 188, 188, 0.7);
+ 
+
+html {
+    max-width: 768px;
+    
+    }
+    
+
+    
+    header {
+    
+         width: 100%;
+         height: 55px;
+         margin-left:-10px;
+         margin-top: -10px;
+         display: flex;
+        justify-content: center;
+        
+    
+    img{
+        align-items: center;
+        width: 200px;
+        height: 35px;
+        padding-top: 10px;
+        position: relative;
+    
+    
+    }
+    
+    }
+
+    .image4 {
+
+        width: 102%;
+        height: auto;
+        margin: -8px;
+        z-index: 2;
+        position: relative;
+
+
+        img{
+
+          width: 100%;
+          height: 350px;
+          object-fit: cover;
+        
+    
+        }
+        
+    }
+
+
+    .legourmand4 {
+        
+        width: 100%;
+        max-width: 768px;
+        background-color: $light-gray;
+        height: 1500px;
+        margin-top:-60px;
+        z-index: 2;
+        position: absolute;
+        margin-left: -8px;
+        border-radius: 60px 60px 0px 0px;
+
+        h1{
+
+            font-family: $title-fonts;
+            font-weight: 300;
+            margin-left: 30px;
+            margin-top: 40px;
+            margin-bottom: 50px;
+
+        }
+
+    }
+
+
+    .entrees4 {
+
+        width: 100%;
+        opacity: 0; 
+        transform: translateY(20px); 
+        animation: fadeInUp 1s ease 0.3s forwards; 
+        
+
+            @keyframes fadeInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0); 
+                }
+            }
+
+        h2 {
+
+            font-family: $text-fonts;
+            font-weight: 250;
+            margin-left: 30px;
+            font-size: large;
+            
+        }
+    }
+
+        .entree4-1 {
+
+
+        height: 60px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 6%;
+        margin-top: 20px;
+        border-radius: 15px 15px 15px 15px;
+        border:  none;
+        box-shadow: $shadow;
+        padding-top: 20px;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+
+        h2{
+
+            font-weight: 400;
+            margin-top: -5px;
+            margin-left: 10px ;
+        }
+
+        p{
+            margin-top: -20px;
+            margin-left: 10px ;
+            font-family: $text-fonts;
+            font-weight: 300;
+
+
+        }
+
+        .price{
+
+            margin-left: 89%;
+            font-size: medium;
+            margin-top: 1px;
+            font-family: $text-fonts;
+            font-weight: 500;
+            transition: transform 0.5s ease;
+        }
+
+
+        .check{
+
+            margin-left: 100%;
+            position: absolute;
+            margin-top: 1px;
+            font-family: $text-fonts;
+            font-weight: 500;
+            margin-top: -70px;
+            width: 80px;
+            background-color: $green;
+            height: 80px;
+            border-radius: 0px 15px 15px 0px;
+            transition: transform 0.5s ease;
+        
+        }
+
+        i{
+
+            padding: 5px;
+            font-size: 30px;
+            margin-top: 35px;
+            margin-left: 20px;
+            transition: all 0.5s ease;
+            
+        }
+
+    }
+
+
+            .entree4-1:hover .check{
+                transform: translateX(-80px); /* Slide to the right */
+                
+            }
+            
+
+            .entree4-1:hover i {
+
+                transform: rotate(360deg);
+                
+            }
+            
+            .entree4-1:hover .price {
+
+    
+                transform: translateX(-80px); 
+                
+            }
+    
+        
+
+        
+
+
+
+            .entree4-2 {
+
+
+                height: 60px;
+                width: 90%;
+                margin-left: 20px;
+                margin-right: 6%;
+                margin-top: 20px;
+                border-radius: 15px 15px 15px 15px;
+                border:  none;
+                box-shadow: $shadow;
+                padding-top: 20px;
+                background-color: white;
+                position: relative;
+                overflow: hidden;
+        
+                h2{
+        
+                    font-weight: 400;
+                    margin-top: -5px;
+                    margin-left: 10px ;
+                }
+        
+                p{
+                    margin-top: -20px;
+                    margin-left: 10px ;
+                    font-family: $text-fonts;
+                    font-weight: 300;
+        
+        
+                }
+        
+                .price{
+        
+                    margin-left: 89%;
+                    font-size: medium;
+                    margin-top: 1px;
+                    font-family: $text-fonts;
+                    font-weight: 500;
+                    transition: transform 0.5s ease;
+                }
+        
+        
+                .check{
+        
+                    margin-left: 100%;
+                    position: absolute;
+                    margin-top: 1px;
+                    font-family: $text-fonts;
+                    font-weight: 500;
+                    margin-top: -70px;
+                    width: 80px;
+                    background-color: $green;
+                    height: 80px;
+                    border-radius: 0px 15px 15px 0px;
+                    transition: transform 0.5s ease;
+                
+                }
+        
+                i{
+        
+                    padding: 5px;
+                    font-size: 30px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                    transition: all 0.5s ease;
+                    
+                }
+        
+            }
+        
+        
+                    .entree4-2:hover .check{
+                        transform: translateX(-80px); /* Slide to the right */
+                        
+                    }
+                    
+        
+                    .entree4-2:hover i {
+        
+                        transform: rotate(360deg);
+                        
+                    }
+                    
+                    .entree4-2:hover .price {
+        
+            
+                        transform: translateX(-80px); 
+                        
+                    }
+
+
+
+                    .entree4-3 {
+
+
+                        height: 60px;
+                        width: 90%;
+                        margin-left: 20px;
+                        margin-right: 6%;
+                        margin-top: 20px;
+                        border-radius: 15px 15px 15px 15px;
+                        border:  none;
+                        box-shadow: $shadow;
+                        padding-top: 20px;
+                        background-color: white;
+                        position: relative;
+                        overflow: hidden;
+                
+                        h2{
+                
+                            font-weight: 400;
+                            margin-top: -5px;
+                            margin-left: 10px ;
+                        }
+                
+                        p{
+                            margin-top: -20px;
+                            margin-left: 10px ;
+                            font-family: $text-fonts;
+                            font-weight: 300;
+                
+                
+                        }
+                
+                        .price{
+                
+                            margin-left: 89%;
+                            font-size: medium;
+                            margin-top: 1px;
+                            font-family: $text-fonts;
+                            font-weight: 500;
+                            transition: transform 0.5s ease;
+                        }
+                
+                
+                        .check{
+                
+                            margin-left: 100%;
+                            position: absolute;
+                            margin-top: 1px;
+                            font-family: $text-fonts;
+                            font-weight: 500;
+                            margin-top: -70px;
+                            width: 80px;
+                            background-color: $green;
+                            height: 80px;
+                            border-radius: 0px 15px 15px 0px;
+                            transition: transform 0.5s ease;
+                        
+                        }
+                
+                        i{
+                
+                            padding: 5px;
+                            font-size: 30px;
+                            margin-top: 35px;
+                            margin-left: 20px;
+                            transition: all 0.5s ease;
+                            
+                        }
+                
+                    }
+                
+                
+                            .entree4-3:hover .check{
+                                transform: translateX(-80px); /* Slide to the right */
+                                
+                            }
+                            
+                
+                            .entree4-3:hover i {
+                
+                                transform: rotate(360deg);
+                                
+                            }
+                            
+                            .entree4-3:hover .price {
+                
+                    
+                                transform: translateX(-80px); 
+                                
+                            }
+
+
+            
+
+
+    
+
+
+
+
+
+
+    .maindish4 {
+
+        width: 100%;
+        margin-top: 80px;
+        opacity: 0; 
+        transform: translateY(20px); 
+        animation: fadeInUp 1s ease 0.3s forwards; 
+        
+
+            @keyframes fadeInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0); 
+                }
+            }
+
+        h2 {
+
+            font-family: $text-fonts;
+            font-weight: 250;
+            margin-left: 30px;
+            font-size: large;
+            
+        }
+
+    }
+
+        .maindish4-1 {
+
+
+            height: 60px;
+            width: 90%;
+            margin-left: 20px;
+            margin-right: 6%;
+            margin-top: 20px;
+            border-radius: 15px 15px 15px 15px;
+            border:  none;
+            box-shadow: $shadow;
+            padding-top: 20px;
+            background-color: white;
+            position: relative;
+            overflow: hidden;
+    
+            h2{
+    
+                font-weight: 400;
+                margin-top: -5px;
+                margin-left: 10px ;
+            }
+    
+            p{
+                margin-top: -20px;
+                margin-left: 10px ;
+                font-family: $text-fonts;
+                font-weight: 300;
+    
+    
+            }
+    
+            .price{
+    
+                margin-left: 89%;
+                font-size: medium;
+                margin-top: 1px;
+                font-family: $text-fonts;
+                font-weight: 500;
+                transition: transform 0.5s ease;
+            }
+    
+    
+            .check{
+    
+                margin-left: 100%;
+                position: absolute;
+                margin-top: 1px;
+                font-family: $text-fonts;
+                font-weight: 500;
+                margin-top: -70px;
+                width: 80px;
+                background-color: $green;
+                height: 80px;
+                border-radius: 0px 15px 15px 0px;
+                transition: transform 0.5s ease;
+            
+            }
+    
+            i{
+    
+                padding: 5px;
+                font-size: 30px;
+                margin-top: 35px;
+                margin-left: 20px;
+                transition: all 0.5s ease;
+                
+            }
+    
+        }
+    
+                .maindish4-1:hover .check{
+                    transform: translateX(-80px); /* Slide to the right */ 
+                }
+                
+                .maindish4-1:hover i {
+                    transform: rotate(360deg);
+                }
+                
+                .maindish4-1:hover .price {
+                    transform: translateX(-80px); 
+                    
+                }
+
+
+
+                .maindish4-2 {
+
+
+                    height: 60px;
+                    width: 90%;
+                    margin-left: 20px;
+                    margin-right: 6%;
+                    margin-top: 20px;
+                    border-radius: 15px 15px 15px 15px;
+                    border:  none;
+                    box-shadow: $shadow;
+                    padding-top: 20px;
+                    background-color: white;
+                    position: relative;
+                    overflow: hidden;
+            
+                    h2{
+            
+                        font-weight: 400;
+                        margin-top: -5px;
+                        margin-left: 10px ;
+                    }
+            
+                    p{
+                        margin-top: -20px;
+                        margin-left: 10px ;
+                        font-family: $text-fonts;
+                        font-weight: 300;
+            
+            
+                    }
+            
+                    .price{
+            
+                        margin-left: 89%;
+                        font-size: medium;
+                        margin-top: 1px;
+                        font-family: $text-fonts;
+                        font-weight: 500;
+                        transition: transform 0.5s ease;
+                    }
+            
+            
+                    .check{
+            
+                        margin-left: 100%;
+                        position: absolute;
+                        margin-top: 1px;
+                        font-family: $text-fonts;
+                        font-weight: 500;
+                        margin-top: -70px;
+                        width: 80px;
+                        background-color: $green;
+                        height: 80px;
+                        border-radius: 0px 15px 15px 0px;
+                        transition: transform 0.5s ease;
+                    
+                    }
+            
+                    i{
+            
+                        padding: 5px;
+                        font-size: 30px;
+                        margin-top: 35px;
+                        margin-left: 20px;
+                        transition: all 0.5s ease;
+                        
+                    }
+            
+                }
+            
+            
+                        .maindish4-2:hover .check{
+                            transform: translateX(-80px); /* Slide to the right */
+                            
+                        }
+                        
+            
+                        .maindish4-2:hover i {
+            
+                            transform: rotate(360deg);
+                            
+                        }
+                        
+                        .maindish4-2:hover .price {
+            
+                
+                            transform: translateX(-80px); 
+                            
+                        }
+
+                        .maindish4-3 {
+
+
+                            height: 60px;
+                            width: 90%;
+                            margin-left: 20px;
+                            margin-right: 6%;
+                            margin-top: 20px;
+                            border-radius: 15px 15px 15px 15px;
+                            border:  none;
+                            box-shadow: $shadow;
+                            padding-top: 20px;
+                            background-color: white;
+                            position: relative;
+                            overflow: hidden;
+                    
+                            h2{
+                    
+                                font-weight: 400;
+                                margin-top: -5px;
+                                margin-left: 10px ;
+                            }
+                    
+                            p{
+                                margin-top: -20px;
+                                margin-left: 10px ;
+                                font-family: $text-fonts;
+                                font-weight: 300;
+                    
+                    
+                            }
+                    
+                            .price{
+                    
+                                margin-left: 89%;
+                                font-size: medium;
+                                margin-top: 1px;
+                                font-family: $text-fonts;
+                                font-weight: 500;
+                                transition: transform 0.5s ease;
+                            }
+                    
+                    
+                            .check{
+                    
+                                margin-left: 100%;
+                                position: absolute;
+                                margin-top: 1px;
+                                font-family: $text-fonts;
+                                font-weight: 500;
+                                margin-top: -70px;
+                                width: 80px;
+                                background-color: $green;
+                                height: 80px;
+                                border-radius: 0px 15px 15px 0px;
+                                transition: transform 0.5s ease;
+                            
+                            }
+                    
+                            i{
+                    
+                                padding: 5px;
+                                font-size: 30px;
+                                margin-top: 35px;
+                                margin-left: 20px;
+                                transition: all 0.5s ease;
+                                
+                            }
+                    
+                        }
+                    
+                    
+                                .maindish4-3:hover .check{
+                                    transform: translateX(-80px); /* Slide to the right */
+                                    
+                                }
+                                
+                    
+                                .maindish4-3:hover i {
+                    
+                                    transform: rotate(360deg);
+                                    
+                                }
+                                
+                                .maindish4-3:hover .price {
+                    
+                        
+                                    transform: translateX(-80px); 
+                                    
+                                }
+
+
+    
+
+
+
+
+    .desserts4 {
+
+        width: 100%;
+        margin-top: 80px;
+        opacity: 0; 
+        transform: translateY(20px); 
+        animation: fadeInUp 1s ease 0.3s forwards; 
+        
+
+            @keyframes fadeInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0); 
+                }
+            }
+
+        h2 {
+
+            font-family: $text-fonts;
+            font-weight: 250;
+            margin-left: 30px;
+            font-size: large;
+            
+        }
+
+    }
+
+    .desserts4-1 {
+
+
+        height: 60px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 6%;
+        margin-top: 20px;
+        border-radius: 15px 15px 15px 15px;
+        border:  none;
+        box-shadow: $shadow;
+        padding-top: 20px;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+
+        h2{
+
+            font-weight: 400;
+            margin-top: -5px;
+            margin-left: 10px ;
+        }
+
+        p{
+            margin-top: -20px;
+            margin-left: 10px ;
+            font-family: $text-fonts;
+            font-weight: 300;
+
+
+        }
+
+        .price{
+
+            margin-left: 89%;
+            font-size: medium;
+            margin-top: 1px;
+            font-family: $text-fonts;
+            font-weight: 500;
+            transition: transform 0.5s ease;
+        }
+
+
+        .check{
+
+            margin-left: 100%;
+            position: absolute;
+            margin-top: 1px;
+            font-family: $text-fonts;
+            font-weight: 500;
+            margin-top: -70px;
+            width: 80px;
+            background-color: $green;
+            height: 80px;
+            border-radius: 0px 15px 15px 0px;
+            transition: transform 0.5s ease;
+        
+        }
+
+        i{
+
+            padding: 5px;
+            font-size: 30px;
+            margin-top: 35px;
+            margin-left: 20px;
+            transition: all 0.5s ease;
+            
+        }
+
+    }
+
+
+            .desserts4-1:hover .check{
+                transform: translateX(-80px); /* Slide to the right */
+                
+            }
+            
+            .desserts4-1:hover i {
+                transform: rotate(360deg);
+                
+            }
+            
+            .desserts4-1:hover .price {
+                transform: translateX(-80px); 
+                
+            }
+
+
+
+            .desserts4-2 {
+
+
+                height: 60px;
+                width: 90%;
+                margin-left: 20px;
+                margin-right: 6%;
+                margin-top: 20px;
+                border-radius: 15px 15px 15px 15px;
+                border:  none;
+                box-shadow: $shadow;
+                padding-top: 20px;
+                background-color: white;
+                position: relative;
+                overflow: hidden;
+        
+                h2{
+        
+                    font-weight: 400;
+                    margin-top: -5px;
+                    margin-left: 10px ;
+                }
+        
+                p{
+                    margin-top: -20px;
+                    margin-left: 10px ;
+                    font-family: $text-fonts;
+                    font-weight: 300;
+        
+        
+                }
+        
+                .price{
+        
+                    margin-left: 89%;
+                    font-size: medium;
+                    margin-top: 1px;
+                    font-family: $text-fonts;
+                    font-weight: 500;
+                    transition: transform 0.5s ease;
+                }
+        
+        
+                .check{
+        
+                    margin-left: 100%;
+                    position: absolute;
+                    margin-top: 1px;
+                    font-family: $text-fonts;
+                    font-weight: 500;
+                    margin-top: -70px;
+                    width: 80px;
+                    background-color: $green;
+                    height: 80px;
+                    border-radius: 0px 15px 15px 0px;
+                    transition: transform 0.5s ease;
+                
+                }
+        
+                i{
+        
+                    padding: 5px;
+                    font-size: 30px;
+                    margin-top: 35px;
+                    margin-left: 20px;
+                    transition: all 0.5s ease;
+                    
+                }
+        
+            }
+        
+        
+                    .desserts4-2:hover .check{
+                        transform: translateX(-80px); /* Slide to the right */
+                        
+                    }
+                    
+                    .desserts4-2:hover i {
+                        transform: rotate(360deg);
+                        
+                    }
+                    
+                    .desserts4-2:hover .price {
+                        transform: translateX(-80px); 
+                        
+                    }
+
+                    .desserts4-3 {
+
+
+                        height: 60px;
+                        width: 90%;
+                        margin-left: 20px;
+                        margin-right: 6%;
+                        margin-top: 20px;
+                        border-radius: 15px 15px 15px 15px;
+                        border:  none;
+                        box-shadow: $shadow;
+                        padding-top: 20px;
+                        background-color: white;
+                        position: relative;
+                        overflow: hidden;
+                
+                        h2{
+                
+                            font-weight: 400;
+                            margin-top: -5px;
+                            margin-left: 10px ;
+                        }
+                
+                        p{
+                            margin-top: -20px;
+                            margin-left: 10px ;
+                            font-family: $text-fonts;
+                            font-weight: 300;
+                
+                
+                        }
+                
+                        .price{
+                
+                            margin-left: 89%;
+                            font-size: medium;
+                            margin-top: 1px;
+                            font-family: $text-fonts;
+                            font-weight: 500;
+                            transition: transform 0.5s ease;
+                        }
+                
+                
+                        .check{
+                
+                            margin-left: 100%;
+                            position: absolute;
+                            margin-top: 1px;
+                            font-family: $text-fonts;
+                            font-weight: 500;
+                            margin-top: -70px;
+                            width: 80px;
+                            background-color: $green;
+                            height: 80px;
+                            border-radius: 0px 15px 15px 0px;
+                            transition: transform 0.5s ease;
+                        
+                        }
+                
+                        i{
+                
+                            padding: 5px;
+                            font-size: 30px;
+                            margin-top: 35px;
+                            margin-left: 20px;
+                            transition: all 0.5s ease;
+                            
+                        }
+                
+                    }
+                
+                
+                            .desserts4-3:hover .check{
+                                transform: translateX(-80px); /* Slide to the right */
+                                
+                            }
+                            
+                            .desserts4-3:hover i {
+                                transform: rotate(360deg);
+                                
+                            }
+                            
+                            .desserts4-3:hover .price {
+                                transform: translateX(-80px); 
+                                
+                            }
+
+
+
+    button {
+        margin-left: 27%;
+        font-family: $text-fonts;
+        font-weight: 400;
+        height: 70px;
+        width: 270px;
+        font-size: 20px;
+        margin-top: 80px;
+        border-radius: 30px 30px 30px 30px;
+        color: white;
+        background: linear-gradient(to bottom right, $pink, $purple);
+        border: none;
+        box-shadow: $shadow;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+    }
+
+
+
+
+    footer {
+
+        background-color: $dark-gray;
+        width: 103%;
+        margin-bottom: -10px;
+        margin-left: -8px;
+        height: 250px;
+        margin-top: 1440px;
+    
+        h1{
+            font-family: $title-fonts;
+            color: white;
+            font-size: 30px;
+            margin-left: 5%;
+            font-weight: 300;
+            padding-top: 25px;
+        }
+    
+        .suggestarestaurant{
+    
+             a{
+            text-decoration: none;
+            color: white;
+            font-family: $text-fonts;
+            margin-left: 5%;
+        }
+    
+    }
+    
+        .becomeapartner{
+    
+            margin-top: 10px;
+    
+            a{
+           text-decoration: none;
+           color: white;
+           font-family: $text-fonts;
+           margin-left: 5%;
+       }
+    }
+    
+    .help{
+    
+        margin-top: 10px;
+    
+        a{
+       text-decoration: none;
+       color: white;
+       font-family: $text-fonts;
+       margin-left: 5%;
+       font-weight: 300;
+    }
+    
+    }
+    
+    
+    .contact{
+        
+        margin-top: 10px;
+    
+        a{
+       text-decoration: none;
+       color: white;
+       font-family: $text-fonts;
+       margin-left: 5%;
+       font-weight: 300;
+    
+    }
+    
+    }
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 769px){
+
+
+        html {
+
+            max-width: 1400px;
+        }
+
+
+
+     header {
+
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 80px;
+     }
+
+     img{
+       
+
+        margin: 0 auto;
+
+    
+    
+    }
+
+
+    .image4 {
+
+        width: 90%;
+        margin: 0 auto;
+        
+        img{
+
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+          
+      
+          }
+
+    }
+
+.legourmand4 {
+
+    width: 90%;
+    margin: 0 auto;
+    max-width: none;
+    position: relative;
+    margin-top: -100px;
+
+    h1{
+
+        padding-top: 60px;
+    }
+}
+
+
+footer {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+
+
+
+}

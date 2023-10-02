@@ -1,0 +1,767 @@
+html {
+  max-width: 768px;
+}
+
+header {
+  width: 100%;
+  height: 55px;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+header img {
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.location {
+  width: 100%;
+  margin-left: -10px;
+  height: 40px;
+  display: flex;
+  background-color: rgb(227, 227, 227);
+  box-shadow: 0px 0px 10px rgba(168, 168, 168, 0.9);
+}
+.location h3 {
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.intro {
+  width: 100%;
+  margin: -10px;
+  height: 370px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(240, 240, 240);
+  margin-top: -27px;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+}
+.intro h2 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  padding-top: 40px;
+}
+.intro p {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.intro button {
+  margin-left: 27%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 70px;
+  width: 270px;
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 30px 30px 30px 30px;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+}
+.intro button a {
+  color: white;
+}
+
+.howit {
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.howitworks {
+  width: 100%;
+  margin: -10px;
+  height: 470px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.howitworks .how1 {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 8%;
+  margin-top: 40px;
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.howitworks .how1 a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  margin-left: -50px;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.howitworks .how1 .number-emoji1 {
+  position: absolute;
+  top: 623px;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.howitworks .how1 .mobile-emoji {
+  top: 623px;
+  left: 80px;
+  transform: translateY(-50%);
+  font-size: 25px;
+}
+.howitworks .how2 {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 8%;
+  margin-top: 20px;
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.howitworks .how2 a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  margin-left: -60px;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.howitworks .how2 .number-emoji2 {
+  position: absolute;
+  top: 712px;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  text-decoration: none;
+}
+.howitworks .how2 .list-emoji {
+  top: 712px;
+  left: 80px;
+  transform: translateY(-50%);
+  font-size: 25px;
+}
+.howitworks .how3 {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 8%;
+  margin-top: 20px;
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.howitworks .how3 a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  margin-left: -30px;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.howitworks .how3 .number-emoji3 {
+  position: absolute;
+  top: 800px;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  text-decoration: none;
+}
+.howitworks .how3 .store-emoji {
+  top: 800px;
+  left: 300px;
+  transform: translateY(-50%);
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.restaurants {
+  width: 100%;
+  margin: -10px;
+  height: 1700px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(240, 240, 240);
+  margin-top: -100px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.restaurants h1 {
+  margin-left: 5%;
+  font-size: xx-large;
+  padding-top: 30px;
+}
+
+.thefullpalette {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px 25px 25px 25px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  position: relative;
+}
+.thefullpalette img {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+.thefullpalette h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.thefullpalette p {
+  margin-top: -35px;
+  margin-left: 17px;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.like1 {
+  margin-left: 85%;
+  height: 50px;
+  width: 50px;
+  margin-top: -30px;
+}
+.like1 .heart1 {
+  margin-left: 1px;
+  margin-top: 5px;
+  width: 51px;
+  height: 50px;
+  position: absolute;
+  -webkit-clip-path: path("M3,8 A6,6,0,0,1,18,8 A6,6,0,0,1,33,8 Q33,16,18,24 Q3,16,3,8 Z");
+}
+.like1 .heart1 .box1 {
+  width: 40px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  transition: transform 2s ease;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+.like1 svg {
+  margin-left: 1px;
+  margin-top: 1px;
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+  height: 35px;
+  width: 36.5px;
+  position: absolute;
+}
+
+svg:hover {
+  opacity: 1;
+}
+
+.like1:hover .box1 {
+  transform: translateY(-35px);
+}
+
+.theenchantedplate {
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px 25px 25px 25px;
+  height: 350px;
+}
+.theenchantedplate img {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+.theenchantedplate h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.theenchantedplate p {
+  margin-top: -35px;
+  margin-left: 17px;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.like2 {
+  margin-left: 85%;
+  height: 50px;
+  width: 50px;
+  margin-top: -30px;
+}
+.like2 .heart2 {
+  margin-left: 1px;
+  margin-top: 5px;
+  width: 51px;
+  height: 50px;
+  position: absolute;
+  -webkit-clip-path: path("M3,8 A6,6,0,0,1,18,8 A6,6,0,0,1,33,8 Q33,16,18,24 Q3,16,3,8 Z");
+}
+.like2 .heart2 .box2 {
+  width: 40px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  transition: transform 2s ease;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+.like2 svg {
+  margin-left: 1px;
+  margin-top: 1px;
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+  height: 35px;
+  width: 36.5px;
+  position: absolute;
+}
+
+svg:hover {
+  opacity: 1;
+}
+
+.like2:hover .box2 {
+  transform: translateY(-35px);
+}
+
+.bastille {
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px 25px 25px 25px;
+  height: 350px;
+}
+.bastille img {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+.bastille h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.bastille p {
+  margin-top: -35px;
+  margin-left: 17px;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.like3 {
+  margin-left: 85%;
+  height: 50px;
+  width: 50px;
+  margin-top: -30px;
+}
+.like3 .heart3 {
+  margin-left: 1px;
+  margin-top: 5px;
+  width: 51px;
+  height: 50px;
+  position: absolute;
+  -webkit-clip-path: path("M3,8 A6,6,0,0,1,18,8 A6,6,0,0,1,33,8 Q33,16,18,24 Q3,16,3,8 Z");
+}
+.like3 .heart3 .box3 {
+  width: 40px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  transition: transform 2s ease;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+.like3 svg {
+  margin-left: 1px;
+  margin-top: 1px;
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+  height: 35px;
+  width: 36.5px;
+  position: absolute;
+}
+
+svg:hover {
+  opacity: 1;
+}
+
+.like3:hover .box3 {
+  transform: translateY(-35px);
+}
+
+.legourmand {
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px 25px 25px 25px;
+  height: 350px;
+}
+.legourmand img {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+.legourmand h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.legourmand p {
+  margin-top: -35px;
+  margin-left: 17px;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.like4 {
+  margin-left: 85%;
+  height: 50px;
+  width: 50px;
+  margin-top: -30px;
+}
+.like4 .heart4 {
+  margin-left: 1px;
+  margin-top: 5px;
+  width: 51px;
+  height: 50px;
+  position: absolute;
+  -webkit-clip-path: path("M3,8 A6,6,0,0,1,18,8 A6,6,0,0,1,33,8 Q33,16,18,24 Q3,16,3,8 Z");
+}
+.like4 .heart4 .box4 {
+  width: 40px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  transition: transform 2s ease;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+.like4 svg {
+  margin-left: 1px;
+  margin-top: 1px;
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+  height: 35px;
+  width: 36.5px;
+  position: absolute;
+}
+
+svg:hover {
+  opacity: 1;
+}
+
+.like4:hover .box4 {
+  transform: translateY(-35px);
+}
+
+footer {
+  background-color: rgb(46, 45, 45);
+  width: 100%;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  height: 250px;
+  margin-top: -40px;
+}
+footer h1 {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  font-size: 30px;
+  margin-left: 5%;
+  font-weight: 300;
+  padding-top: 25px;
+}
+footer .suggestarestaurant a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+}
+footer .becomeapartner {
+  margin-top: 10px;
+}
+footer .becomeapartner a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+}
+footer .help {
+  margin-top: 10px;
+}
+footer .help a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+  font-weight: 300;
+}
+footer .contact {
+  margin-top: 10px;
+}
+footer .contact a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    max-width: 1400px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+  }
+  img {
+    margin: 0 auto;
+  }
+  .location {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .location h3 {
+    margin: 0 auto;
+  }
+  .intro {
+    margin: 0 auto;
+    width: 90%;
+    height: 425px;
+    margin-top: -23px;
+    justify-content: center;
+  }
+  .intro button {
+    margin-left: 38%;
+  }
+  .howit {
+    width: 300px;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .howitworks {
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .howitworks .how1 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .howitworks .how1 a {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .howitworks .how1 .number-emoji1 {
+    left: 20%;
+    transform: translateY(240%);
+    font-size: 25px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .howitworks .how1 .mobile-emoji {
+    margin-right: -40px;
+    transform: translateY(240%);
+    font-size: 35px;
+  }
+  .howitworks .how2 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .howitworks .how2 a {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .howitworks .how2 .number-emoji2 {
+    left: 20%;
+    transform: translateY(260%);
+    font-size: 25px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .howitworks .how2 .list-emoji {
+    margin-right: -40px;
+    transform: translateY(260%);
+    font-size: 35px;
+  }
+  .howitworks .how3 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .howitworks .how3 a {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .howitworks .how3 .number-emoji3 {
+    left: 20%;
+    transform: translateY(290%);
+    font-size: 25px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .howitworks .how3 .store-emoji {
+    margin-right: -45px;
+    transform: translateY(260%);
+    font-size: 35px;
+  }
+  .restaurants {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    height: 2800px;
+    margin-top: -60px;
+  }
+  .restaurants h1 {
+    font-size: 30px;
+  }
+  .restaurants .thefullpalette {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .restaurants .thefullpalette img {
+    height: 500px;
+  }
+  .restaurants .theenchantedplate {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .restaurants .theenchantedplate img {
+    height: 500px;
+  }
+  .restaurants .bastille {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .restaurants .bastille img {
+    height: 500px;
+  }
+  .restaurants .legourmand {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .restaurants .legourmand img {
+    height: 500px;
+  }
+  footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -30px;
+  }
+}/*# sourceMappingURL=styles.css.map */

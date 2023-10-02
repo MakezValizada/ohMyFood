@@ -1,0 +1,817 @@
+html {
+  max-width: 768px;
+}
+
+header {
+  width: 100%;
+  height: 55px;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+header img {
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.image1 {
+  width: 102%;
+  height: auto;
+  margin: -8px;
+  z-index: 2;
+  position: relative;
+}
+.image1 img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bastille1 {
+  width: 100%;
+  max-width: 768px;
+  background-color: rgb(240, 240, 240);
+  height: 1500px;
+  margin-top: -60px;
+  z-index: 2;
+  position: absolute;
+  margin-left: -8px;
+  border-radius: 60px 60px 0px 0px;
+}
+.bastille1 h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.entrees1 {
+  width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.entrees1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  margin-left: 30px;
+  font-size: large;
+}
+
+.entree1-1 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.entree1-1 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.entree1-1 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.entree1-1 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.entree1-1 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.entree1-1 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.entree1-1:hover .check {
+  transform: translateX(-80px);
+}
+
+.entree1-1:hover i {
+  transform: rotate(360deg);
+}
+
+.entree1-1:hover .price {
+  transform: translateX(-80px);
+}
+
+.entree1-2 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.entree1-2 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.entree1-2 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.entree1-2 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.entree1-2 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.entree1-2 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.entree1-2:hover .check {
+  transform: translateX(-80px);
+}
+
+.entree1-2:hover i {
+  transform: rotate(360deg);
+}
+
+.entree1-2:hover .price {
+  transform: translateX(-80px);
+}
+
+.entree1-3 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.entree1-3 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.entree1-3 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.entree1-3 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.entree1-3 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.entree1-3 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.entree1-3:hover .check {
+  transform: translateX(-80px);
+}
+
+.entree1-3:hover i {
+  transform: rotate(360deg);
+}
+
+.entree1-3:hover .price {
+  transform: translateX(-80px);
+}
+
+.maindish1 {
+  width: 100%;
+  margin-top: 80px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.maindish1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  margin-left: 30px;
+  font-size: large;
+}
+
+.maindish1-1 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.maindish1-1 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.maindish1-1 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.maindish1-1 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.maindish1-1 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.maindish1-1 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.maindish1-1:hover .check {
+  transform: translateX(-80px);
+}
+
+.maindish1-1:hover i {
+  transform: rotate(360deg);
+}
+
+.maindish1-1:hover .price {
+  transform: translateX(-80px);
+}
+
+.maindish1-2 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.maindish1-2 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.maindish1-2 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.maindish1-2 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.maindish1-2 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.maindish1-2 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.maindish1-2:hover .check {
+  transform: translateX(-80px);
+}
+
+.maindish1-2:hover i {
+  transform: rotate(360deg);
+}
+
+.maindish1-2:hover .price {
+  transform: translateX(-80px);
+}
+
+.maindish1-3 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.maindish1-3 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.maindish1-3 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.maindish1-3 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.maindish1-3 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.maindish1-3 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.maindish1-3:hover .check {
+  transform: translateX(-80px);
+}
+
+.maindish1-3:hover i {
+  transform: rotate(360deg);
+}
+
+.maindish1-3:hover .price {
+  transform: translateX(-80px);
+}
+
+.desserts1 {
+  width: 100%;
+  margin-top: 80px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease 0.3s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.desserts1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  margin-left: 30px;
+  font-size: large;
+}
+
+.desserts1-1 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.desserts1-1 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.desserts1-1 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.desserts1-1 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.desserts1-1 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.desserts1-1 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.desserts1-1:hover .check {
+  transform: translateX(-80px);
+}
+
+.desserts1-1:hover i {
+  transform: rotate(360deg);
+}
+
+.desserts1-1:hover .price {
+  transform: translateX(-80px);
+}
+
+.desserts1-2 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.desserts1-2 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.desserts1-2 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.desserts1-2 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.desserts1-2 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.desserts1-2 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.desserts1-2:hover .check {
+  transform: translateX(-80px);
+}
+
+.desserts1-2:hover i {
+  transform: rotate(360deg);
+}
+
+.desserts1-2:hover .price {
+  transform: translateX(-80px);
+}
+
+.desserts1-3 {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 6%;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+  padding-top: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.desserts1-3 h2 {
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.desserts1-3 p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.desserts1-3 .price {
+  margin-left: 89%;
+  font-size: medium;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.desserts1-3 .check {
+  margin-left: 100%;
+  position: absolute;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -70px;
+  width: 80px;
+  background-color: #99E2D0;
+  height: 80px;
+  border-radius: 0px 15px 15px 0px;
+  transition: transform 0.5s ease;
+}
+.desserts1-3 i {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+.desserts1-3:hover .check {
+  transform: translateX(-80px);
+}
+
+.desserts1-3:hover i {
+  transform: rotate(360deg);
+}
+
+.desserts1-3:hover .price {
+  transform: translateX(-80px);
+}
+
+button {
+  margin-left: 27%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 70px;
+  width: 270px;
+  font-size: 20px;
+  margin-top: 80px;
+  border-radius: 30px 30px 30px 30px;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border: none;
+  box-shadow: 0px 0px 15px rgba(188, 188, 188, 0.7);
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: rgb(46, 45, 45);
+  width: 103%;
+  margin-bottom: -10px;
+  margin-left: -8px;
+  height: 250px;
+  margin-top: 1440px;
+}
+footer h1 {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  font-size: 30px;
+  margin-left: 5%;
+  font-weight: 300;
+  padding-top: 25px;
+}
+footer .suggestarestaurant a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+}
+footer .becomeapartner {
+  margin-top: 10px;
+}
+footer .becomeapartner a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+}
+footer .help {
+  margin-top: 10px;
+}
+footer .help a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+  font-weight: 300;
+}
+footer .contact {
+  margin-top: 10px;
+}
+footer .contact a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    max-width: 1400px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+  }
+  img {
+    margin: 0 auto;
+  }
+  .image1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .image1 img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .bastille1 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: none;
+    position: relative;
+    margin-top: -100px;
+  }
+  .bastille1 h1 {
+    padding-top: 60px;
+  }
+  footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -30px;
+  }
+}/*# sourceMappingURL=menu1.css.map */
