@@ -77,6 +77,10 @@ header img {
   color: white;
 }
 
+button:hover {
+  box-shadow: 0px 0px 15px rgba(46, 44, 44, 0.9);
+}
+
 .howit {
   margin-left: 20px;
   font-size: 25px;
@@ -141,6 +145,10 @@ header img {
   transform: translateY(-50%);
   font-size: 25px;
 }
+.howitworks .how1:hover {
+  box-shadow: 0px 0px 15px rgba(72, 69, 69, 0.5);
+  background-color: rgb(234, 234, 234);
+}
 .howitworks .how2 {
   display: flex;
   justify-content: center;
@@ -191,6 +199,10 @@ header img {
   transform: translateY(-50%);
   font-size: 25px;
 }
+.howitworks .how2:hover {
+  box-shadow: 0px 0px 15px rgba(72, 69, 69, 0.5);
+  background-color: rgb(234, 234, 234);
+}
 .howitworks .how3 {
   display: flex;
   justify-content: center;
@@ -240,6 +252,10 @@ header img {
   left: 300px;
   transform: translateY(-50%);
   font-size: 25px;
+}
+.howitworks .how3:hover {
+  box-shadow: 0px 0px 15px rgba(72, 69, 69, 0.5);
+  background-color: rgb(234, 234, 234);
 }
 
 a {

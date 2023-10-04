@@ -799,6 +799,10 @@ button a {
   color: white;
 }
 
+button:hover {
+  box-shadow: 0px 0px 15px rgba(46, 44, 44, 0.9);
+}
+
 footer {
   background-color: rgb(46, 45, 45);
   width: 103%;
@@ -884,6 +888,9 @@ footer .contact a {
   }
   .theenchantedplate2 h1 {
     padding-top: 60px;
+  }
+  button {
+    margin-left: 40%;
   }
   footer {
     width: 90%;
