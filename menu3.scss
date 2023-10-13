@@ -10,6 +10,8 @@ $shadow:  0px 0px 15px rgba(188, 188, 188, 0.7);
 
 html {
     max-width: 768px;
+    min-width: 450px;
+    
     
     }
     
@@ -61,6 +63,7 @@ html {
     .thefullpalette3 {
         
         width: 100%;
+        min-width: 450px;
         max-width: 768px;
         background-color: $light-gray;
         height: 1500px;
@@ -182,7 +185,7 @@ html {
 
 
             .entree3-1:hover .check{
-                transform: translateX(-80px); /* Slide to the right */
+                transform: translateX(-80px);
                 
             }
             
@@ -279,7 +282,7 @@ html {
         
         
                     .entree3-2:hover .check{
-                        transform: translateX(-80px); /* Slide to the right */
+                        transform: translateX(-80px); 
                         
                     }
                     
@@ -327,6 +330,11 @@ html {
                             margin-left: 10px ;
                             font-family: $text-fonts;
                             font-weight: 300;
+                            white-space: nowrap; 
+                            overflow: hidden; 
+                            text-overflow: ellipsis;
+                            width: 60%;
+    
                 
                 
                         }
@@ -372,7 +380,7 @@ html {
                 
                 
                             .entree3-3:hover .check{
-                                transform: translateX(-80px); /* Slide to the right */
+                                transform: translateX(-80px); 
                                 
                             }
                             
@@ -500,7 +508,7 @@ html {
         }
     
                 .maindish3-1:hover .check{
-                    transform: translateX(-80px); /* Slide to the right */ 
+                    transform: translateX(-80px); 
                 }
                 
                 .maindish3-1:hover i {
@@ -587,7 +595,7 @@ html {
             
             
                         .maindish3-2:hover .check{
-                            transform: translateX(-80px); /* Slide to the right */
+                            transform: translateX(-80px); 
                             
                         }
                         
@@ -678,7 +686,7 @@ html {
                     
                     
                                 .maindish3-3:hover .check{
-                                    transform: translateX(-80px); /* Slide to the right */
+                                    transform: translateX(-80px); 
                                     
                                 }
                                 
@@ -802,7 +810,7 @@ html {
 
 
             .desserts3-1:hover .check{
-                transform: translateX(-80px); /* Slide to the right */
+                transform: translateX(-80px); 
                 
             }
             
@@ -891,7 +899,7 @@ html {
         
         
                     .desserts3-2:hover .check{
-                        transform: translateX(-80px); /* Slide to the right */
+                        transform: translateX(-80px); 
                         
                     }
                     
@@ -978,7 +986,7 @@ html {
                 
                 
                             .desserts3-3:hover .check{
-                                transform: translateX(-80px); /* Slide to the right */
+                                transform: translateX(-80px);
                                 
                             }
                             

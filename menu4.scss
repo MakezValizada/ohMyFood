@@ -10,6 +10,7 @@ $shadow:  0px 0px 15px rgba(188, 188, 188, 0.7);
 
 html {
     max-width: 768px;
+    min-width: 450px;
     
     }
     
@@ -61,6 +62,7 @@ html {
     .legourmand4 {
         
         width: 100%;
+        min-width: 450px;
         max-width: 768px;
         background-color: $light-gray;
         height: 1500px;
@@ -181,7 +183,7 @@ html {
 
 
             .entree4-1:hover .check{
-                transform: translateX(-80px); /* Slide to the right */
+                transform: translateX(-80px); 
                 
             }
             
@@ -278,7 +280,7 @@ html {
         
         
                     .entree4-2:hover .check{
-                        transform: translateX(-80px); /* Slide to the right */
+                        transform: translateX(-80px); 
                         
                     }
                     
@@ -371,7 +373,7 @@ html {
                 
                 
                             .entree4-3:hover .check{
-                                transform: translateX(-80px); /* Slide to the right */
+                                transform: translateX(-80px); 
                                 
                             }
                             
@@ -499,7 +501,7 @@ html {
         }
     
                 .maindish4-1:hover .check{
-                    transform: translateX(-80px); /* Slide to the right */ 
+                    transform: translateX(-80px); 
                 }
                 
                 .maindish4-1:hover i {
@@ -586,7 +588,7 @@ html {
             
             
                         .maindish4-2:hover .check{
-                            transform: translateX(-80px); /* Slide to the right */
+                            transform: translateX(-80px); 
                             
                         }
                         
@@ -677,7 +679,7 @@ html {
                     
                     
                                 .maindish4-3:hover .check{
-                                    transform: translateX(-80px); /* Slide to the right */
+                                    transform: translateX(-80px); 
                                     
                                 }
                                 
@@ -801,7 +803,7 @@ html {
 
 
             .desserts4-1:hover .check{
-                transform: translateX(-80px); /* Slide to the right */
+                transform: translateX(-80px); 
                 
             }
             
@@ -890,7 +892,7 @@ html {
         
         
                     .desserts4-2:hover .check{
-                        transform: translateX(-80px); /* Slide to the right */
+                        transform: translateX(-80px); 
                         
                     }
                     
@@ -977,7 +979,7 @@ html {
                 
                 
                             .desserts4-3:hover .check{
-                                transform: translateX(-80px); /* Slide to the right */
+                                transform: translateX(-80px); 
                                 
                             }
                             
