@@ -22,15 +22,8 @@ min-width: 450px;
     width: 100%;
     margin-left: -5px;
     height: 2900px;
-  
     translate: -1px;
-    
     position: relative;
-   
-
-
-
-
 }
 
 
@@ -42,30 +35,18 @@ min-width: 450px;
     width: 80px;
     height: 80px;
     animation: spin  3s linear forwards;
-   
-
-   
     margin-left: 50%;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 15%;
-  position:absolute;
-  
-
-
-
-        
-
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    position:absolute;
  
-
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
         100% { opacity: 0.0;}
             
-       
-        
     }
 
 }
