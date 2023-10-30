@@ -1,4 +1,4 @@
-This was my second project for Web develpment bootcamp. Task was to create responsive webpage using HTML, SCSS and CSS animations.
+This was my second project for the Web develpment bootcamp. Task was to create responsive webpage using HTML, SCSS and CSS animations.
 
 
 
