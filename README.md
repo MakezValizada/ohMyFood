@@ -1,4 +1,4 @@
-Link to website: file:///Users/makezvalizada/Documents/ohMyFood/index.html
+This was my second project for Web develpment bootcamp. Task was to create responsive webpage using HTML, SCSS and CSS animations.
 
 
 
